@@ -167,6 +167,7 @@
 
 #about {
   min-height: 100vh;
+  padding: 6rem 0;
 }
 
 #skills {
@@ -517,5 +518,12 @@
   }
   .imgBox {
     min-height: auto !important;
+  }
+  .Card_button button{
+   padding: .25rem .5rem;
+   font-size: 16px;
+  }
+  .card_container{
+    grid-gap: 2rem;
   }
 }

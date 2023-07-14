@@ -17,7 +17,7 @@ const Contact = () => {
       index: 1,
       title: "linkedin.com/in/harshit202004",
       logo: <AiFillLinkedin />,
-      href: "www.linkedin.com/in/harshit202004",
+      href: "https://www.linkedin.com/in/harshit202004",
     },
     {
       index: 2,
