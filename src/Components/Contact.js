@@ -78,7 +78,7 @@ const Contact = () => {
     if (name && email && message) {
       await axios({
         method: "POST",
-        url: "http://localhost:4000/sendMessage",
+        url: "https://protfolio-4fis.onrender.com/sendMessage",
         headers: {
           "Content-Type": "application/json",
         },
