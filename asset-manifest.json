@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.efc3cbec.css",
-    "main.js": "/portfolio/static/js/main.88b2188a.js",
+    "main.js": "/portfolio/static/js/main.62bc67bb.js",
     "static/media/Netflix_project.png": "/portfolio/static/media/Netflix_project.417ec10d022d9572e827.png",
     "static/media/story.png": "/portfolio/static/media/story.6ca2a95b22ba7a468ac6.png",
     "static/media/lumen-1.png": "/portfolio/static/media/lumen-1.359c4b9ac58c72140a3b.png",
     "static/media/bg.jpg": "/portfolio/static/media/bg.8bf51df8a0bf41da0afb.jpg",
-    "static/media/Harshit_Resume3.pdf": "/portfolio/static/media/Harshit_Resume3.86f4eb308a8274664dbf.pdf",
+    "static/media/Harshit_Resume3.pdf": "/portfolio/static/media/Harshit_Resume3.f07b06e5ad2d112331fa.pdf",
     "static/media/my_image.png": "/portfolio/static/media/my_image.8ed70dbcb95a8192e888.png",
     "static/media/firebase.png": "/portfolio/static/media/firebase.570255e4114b65ae63da.png",
     "static/media/bootstrap.png": "/portfolio/static/media/bootstrap.9e03bbf5a2543bd4e679.png",
@@ -21,10 +21,10 @@
     "static/media/css3.svg": "/portfolio/static/media/css3.3ec320225ef851ed26cf9fd1c6ebaa54.svg",
     "static/media/html-5.svg": "/portfolio/static/media/html-5.c1bb84e022ca9d76984d4b943bd678fd.svg",
     "main.efc3cbec.css.map": "/portfolio/static/css/main.efc3cbec.css.map",
-    "main.88b2188a.js.map": "/portfolio/static/js/main.88b2188a.js.map"
+    "main.62bc67bb.js.map": "/portfolio/static/js/main.62bc67bb.js.map"
   },
   "entrypoints": [
     "static/css/main.efc3cbec.css",
-    "static/js/main.88b2188a.js"
+    "static/js/main.62bc67bb.js"
   ]
 }
