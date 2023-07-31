@@ -340,6 +340,7 @@
   background: #2253c8;
   color: white;
   border-radius: 8px;
+  min-width: 135px;
 }
 
 .ImgBox {
