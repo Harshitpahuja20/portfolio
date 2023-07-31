@@ -6,6 +6,7 @@ import { BsFillTelephoneFill } from "react-icons/bs";
 import axios from "axios";
 
 const Contact = () => {
+  const [isLoader, setIsLoader] = useState(false);
   let links = [
     {
       index: 0,
@@ -74,8 +75,9 @@ const Contact = () => {
   // };
 
   const sendmsg = async (e) => {
-    e.preventDefault()
+    e.preventDefault();
     if (name && email && message) {
+      setIsLoader(true);
       await axios({
         method: "POST",
         url: "https://protfolio-4fis.onrender.com/sendMessage",
@@ -91,12 +93,15 @@ const Contact = () => {
       })
         .then((res) => {
           if (res.status) {
+            setIsLoader(false);
             alert("message sent successfully");
           } else {
+            setIsLoader(false);
             alert("Something went wrong");
           }
         })
         .catch((err) => {
+          setIsLoader(false);
           alert("Something went wrong");
           console.log(err);
         });
@@ -162,7 +167,20 @@ const Contact = () => {
                   onChange={onchange2}
                 />
                 <div className="send_btn">
-                  <button type="submit">Send message</button>
+                  {!isLoader ? (
+                    <button type="submit" className="btn small btn-primary">
+                      Send message
+                    </button>
+                  ) : (
+                    <button class="btn btn-primary" type="button" disabled>
+                      <span
+                        class="spinner-border spinner-border-sm"
+                        role="status"
+                        aria-hidden="true"
+                      ></span>
+                      Sending...
+                    </button>
+                  )}
                 </div>
               </form>
             </div>
